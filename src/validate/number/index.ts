@@ -1,4 +1,4 @@
-import { ValidChecker } from "../../base";
+import { ValidChecker } from "../base";
 import { TypeChain } from "../typeChain";
 
 export function isNumber(): ValidChecker<number> {

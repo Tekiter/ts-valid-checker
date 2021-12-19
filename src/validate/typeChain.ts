@@ -1,4 +1,4 @@
-import { ValidChecker } from "../base";
+import { ValidChecker } from "./base";
 
 export abstract class TypeChain<T> implements ValidChecker<T> {
   private checkers: CheckerFunction<T>[];
