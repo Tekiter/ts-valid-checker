@@ -1,1 +1,2 @@
-export { sayHello } from "./sayHello";
+export { isNumber } from "./validate/number";
+export { isString } from "./validate/string";
