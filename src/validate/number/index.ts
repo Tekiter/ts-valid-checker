@@ -1,7 +1,6 @@
-import { ValidChecker } from "../base";
 import { TypeChain } from "../typeChain";
 
-export function isNumber(): ValidChecker<number> {
+export function isNumber(): NumberChain {
   return new NumberChain();
 }
 

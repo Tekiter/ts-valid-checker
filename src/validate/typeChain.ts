@@ -16,7 +16,7 @@ export abstract class TypeChain<T> implements ValidChecker<T> {
     return this;
   }
 
-  abstract typeValidCheck(value: unknown): value is T;
+  protected abstract typeValidCheck(value: unknown): value is T;
 }
 
 interface CheckerFunction<T> {
