@@ -11,8 +11,6 @@ type ObjectValidCheckerShape<T extends UsualObject> = {
 };
 
 export class ObjectChain<T extends UsualObject> extends TypeChain<T> {
-  private objs = {};
-
   constructor(private objectShape: ObjectValidCheckerShape<T>) {
     super();
   }
