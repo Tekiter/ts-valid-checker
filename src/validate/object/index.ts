@@ -15,7 +15,7 @@ export class ObjectChain<T extends UsualObject> extends TypeChain<T> {
     super();
   }
 
-  typeValidCheck(value: unknown): value is T {
+  protected typeValidCheck(value: unknown): value is T {
     if (!(value instanceof Object) || value === null) {
       return false;
     }

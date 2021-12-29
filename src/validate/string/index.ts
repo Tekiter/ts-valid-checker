@@ -5,7 +5,7 @@ export function isString(): StringChain {
 }
 
 export class StringChain extends TypeChain<string> {
-  typeValidCheck(value: unknown): value is string {
+  protected typeValidCheck(value: unknown): value is string {
     return typeof value === "string";
   }
 

@@ -5,7 +5,7 @@ export function isNumber(): NumberChain {
 }
 
 export class NumberChain extends TypeChain<number> {
-  typeValidCheck(value: unknown): value is number {
+  protected typeValidCheck(value: unknown): value is number {
     return typeof value === "number";
   }
 }
