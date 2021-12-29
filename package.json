@@ -2,7 +2,7 @@
   "name": "ts-valid-checker",
   "version": "0.0.1",
   "description": "Readymade validators with type guards",
-  "main": "index.js",
+  "main": "ts-valid-checker.js",
   "repository": "https://github.com/Tekiter/ts-valid-checker.git",
   "tags": [
     "validator",
